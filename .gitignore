@@ -36,13 +36,16 @@ ENV/
 
 # Project specific
 *.log
-*.mp4
 *.avi
 *.mov
 assets/
 *.png
 *.jpg
 *.jpeg
+
+# Allow demo files for README
+!demo.png
+!demo.mp4
 
 # Environment variables
 .env
